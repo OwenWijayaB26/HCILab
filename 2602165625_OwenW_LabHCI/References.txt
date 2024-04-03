@@ -1,0 +1,18 @@
+======================= Figma Details =======================
+Font used : Abel, Antonio, Galada
+
+Color used in all : #FFFFFF, #000000
+Color used for NavBar : #B22121
+Color used in Home : #8E2A1C, #BC4444, #A94545, #A63939 
+Color used in Recipes : #9D3535, #F88888, #BB4343
+Color used in Products : #791C1C, #BE6A6A, #A75151, #E68484
+Color used in AboutUs : #982C2C, #BE2929
+Color used in ContactUs : #A23F3F, #CF2020, #8B0000
+
+======================== References ========================
+https://www.w3schools.com/jsref/prop_text_value.asp
+https://www.geeksforgeeks.org/how-to-validate-email-address-without-using-regular-expression-in-javascript/
+https://www.w3schools.com/jsref/jsref_lastindexof.asp
+https://www.geeksforgeeks.org/javascript-program-to-check-if-a-string-contains-only-alphabetic-characters/#approach-2-using-forof-loop
+https://www.w3schools.com/jsref/jsref_substring.asp
+https://www.w3schools.com/js/js_string_methods.asp#mark_split

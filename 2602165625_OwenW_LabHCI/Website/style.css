@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Home Page Styling */
+.nav-logo{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Galada';
+    color: white;
+    width: 180px;
+    height: 60px;
+    margin-left: 108px;
+    margin-right: 157px;
+}
+.nav-menu-bar{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: #b22121;
+}
+.nav-menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-menu-item{
+    font-family: 'Antonio';
+    font-size: 28px;
+    margin-right: 62px;
+}
+.nav-page-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-page-link:visited{
+    color: white;
+}
+#home-logo-banner{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+#home-logo-banner span{
+    margin-top: 40px;
+    color: white;
+    font-family: 'Galada';
+    font-size: 80px;
+}
+#home-logo-banner p{
+    color: white;
+    font-family: 'Abel';
+    font-size: 16px;
+    width: 460px;
+    text-align: center;
+    margin-top: 0px;
+}
+#home-background::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("homebackground.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(40%) brightness(60%);
+    z-index: -1;
+}
+#home-content-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#home-content-container > div{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 34rem;
+    height: 26.7rem;
+}
+#best-product{
+    background-color: #a94545;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#best-product-title{
+    font-family: 'Galada';
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+}
+#best-product-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20rem;
+    align-items: center;
+}
+.best-product-item{
+    background-color: #8E2A1C;
+    width: 155px;
+    height: 230px;
+    margin: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid white;
+}
+.best-product-item:hover{
+    transform: scale(1.1);
+    transition: transform ease 200ms;
+}
+.best-product-image{
+    margin: 10px;
+    width: 7rem;
+    margin-bottom: 15px;
+}
+.best-product-name{
+    font-family: 'Antonio';
+    font-size: x-small;
+    color: white;
+    text-align: center;
+}
+#best-recipe{
+    background-color: #a63939;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#best-recipe-title{
+    font-family: 'Galada';
+    color: white;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.best-recipe-item{
+    width: 600px;
+    height: 130px;
+    border-radius: 5px;
+    background-color: #BC4444;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.best-recipe-item:hover{
+    transform: scale(1.05);
+    transition: transform ease 200ms;
+}
+.best-recipe-image{
+    margin-left: 20px;
+    width: 230px;
+    height: 110px;
+}
+#best-recipe-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.best-recipe-textbox{
+    margin-left: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Antonio';
+    white-space: pre;
+    font-size: 24px;
+    color: white;
+}
+
+/* Product Page Styling */
+
+#product-banner{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+#product-banner h4{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Abel';
+    font-size: 24px;
+}
+#product-banner h1{
+    margin: 0;
+    font-family: 'Galada';
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+#product-content-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+#product-content-container > div{
+    width: 36rem;
+    height: 26rem;
+    border-radius: 10px;
+    margin: 20px;
+}
+#child-product-container{
+    background-color: #E68484;
+}
+#adult-product-container{
+    background-color: #A75151;
+}
+#product-content-container h2{
+    font-family: 'Galada';
+    text-align: center;
+    color: white;
+}
+#child-product-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child-product-item{
+    border-radius: 10px;
+    width: 140px;
+    height: 170px;
+    background-color: #BE6A6A;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child-product-item:hover{
+    transform: scale(1.1);
+    transition: transform ease 200ms;
+}
+.child-product-item > img{
+    background-color: white;
+    margin-top: 15px;
+    width: 100px;
+}
+.child-product-item > span{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Antonio';
+    font-size: 18px;
+    text-align: center;
+}
+#adult-product-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.adult-product-item{
+    border-radius: 10px;
+    width: 140px;
+    height: 170px;
+    background-color: #791C1C;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adult-product-item:hover{
+    transform: scale(1.1);
+    transition: transform ease 200ms;
+}
+.adult-product-item > img{
+    background-color: white;
+    margin-top: 15px;
+    width: 100px;
+}
+.adult-product-item > span{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Antonio';
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Recipe Page Styling */
+
+#recipe-banner{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+#recipe-banner h1{
+    margin: 0;
+    font-family: 'Galada';
+    font-size: 72px;
+    margin-top: 20px;
+}
+#recipe-content{
+    display: flex;
+    justify-content: center;
+}
+#recipe-content-container{
+    background-color: #BB4343;
+    width: 72rem;
+    height: 32rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    border-radius: 10px;
+}
+.recipe-content-item{
+    border-radius: 10px;
+    background-color: #9D3535;
+    margin-top: 15px;
+    padding: 15px;
+    width: 630px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.recipe-content-item:hover{
+    transform: scale(1.05);
+    transition: transform ease 200ms;
+}
+.recipe-content-item > img{
+    width: 250px;
+    height: 130px;
+}
+.recipe-item-textbox{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Antonio';
+    color: white;
+    margin-left: 30px;
+}
+.recipe-item-textbox h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.recipe-item-textbox span{
+    white-space: pre;
+}
+
+/* Contact Us Page Styling */
+
+#contactus-content{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 90px;
+    width: 100%;
+}
+#contactus-content-container{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #A23F3F;
+    color: white;
+    display: flex;
+    width: 32rem;
+    height: 36rem;
+    flex-direction: column;
+    align-items: center;
+}
+#contactus-content-container h2{
+    font-family: 'Galada';
+    font-size: 36px;
+}
+.contactus-content-item{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.contactus-content-item span{
+    font-family: 'Antonio';
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.contactus-content-item input{
+    width: 540px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+#subject-textarea{
+    border: 0;
+    height: 150px;
+    width: 540px;
+    border-radius: 5px;
+}
+#submit-button{
+    background-color: #CF2020;
+    border: 0;
+    font-family: 'Antonio';
+    font-size: 22px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 5px;
+    width: 230px;
+    margin-top: 10px;
+    height: 40px;
+}
+#submit-button:hover{
+    background-color: #eb2929;
+}
+#submit-button:active{
+    background-color: #8B0000;
+}
+
+/* About Us Page Styling */
+
+#aboutus-content{
+    display: inline-flex;
+    margin-top: 90px;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#aboutus-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("aboutusbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(40%) brightness(60%);
+    z-index: -1;
+}
+
+#aboutus-textbox{
+    border-radius: 10px;
+    font-family: 'Abel';
+    color: white;
+    background-color: #982C2C;
+    width: 30rem;
+    height: 30rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    border: 5px solid white;
+}
+#aboutus-textbox h3{
+    font-size: 36px;
+}
+#aboutus-textbox p{
+    font-size: 34px;
+}
+#aboutus-logobox{
+    background-color: #BE2929;
+    width: auto;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+#aboutus-logobox span{
+    font-family: 'Galada';
+    font-size: 100px;
+    color: white;
+}
